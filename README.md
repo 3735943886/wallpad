@@ -4,7 +4,7 @@
 
 이러한 환경을 구축하는 궁극적인 이유는 **아파트 서버나 세대 월패드 기기로부터 탐지(Detection)되지 않으면서**, 중간에서 안전하게 패킷을 분석하거나 새로운 패킷을 생성(Generation)하여 주입하기 위함입니다.
 
-![패킷 흐름](./img/sbc_packet_redirection_namespace_diagram_1774926584056.png)
+![패킷 흐름](./img/sbc_packet_redirection_namespace_diagram.png)
 
 ---
 
@@ -39,7 +39,7 @@ graph LR
 > *   **하드웨어 권장**: 라즈베리 파이(Raspberry Pi)와 같이 Linux(데비안 계열 등) 환경이 지원되는 소형 SBC(Single Board Computer)로도 충분히 구성 가능하며, 전력 소모와 공간 면에서 매우 효율적입니다.
 > *   **인터페이스 확장**: 포트가 부족한 경우 **USB to Ethernet** 어댑터를 사용하여 인터페이스를 확장할 수 있습니다.
 
-![하드웨어 연결](./img/wallpad_sbc_server_bridge_connection_1774926366565.png)
+![하드웨어 연결](./img/wallpad_sbc_server_bridge_connection.png)
 
 ---
 
