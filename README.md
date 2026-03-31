@@ -123,14 +123,7 @@ graph LR
 # ==========================================================
 
 # 서버 방향(외부) 물리 인터페이스
-LAN_SERVER_1='eth_srv_alt1'
-LAN_SERVER_2='eth_srv_alt2'
-
-if ip a | grep -q "$LAN_SERVER_1"; then
-    LAN_SERVER="$LAN_SERVER_1"
-else
-    LAN_SERVER="$LAN_SERVER_2"
-fi
+LAN_SERVER='eth_srv'
 
 # 월패드 방향(내부) 물리 인터페이스
 LAN_WALLPAD='eth_wallpad'
